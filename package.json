@@ -1,0 +1,26 @@
+{
+  "name": "strider-verstat",
+  "version": "0.0.1",
+  "description": "Support for Verstat",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Se7enSky/strider-verstat.git"
+  },
+  "keywords": [
+    "strider",
+    "verstat"
+  ],
+  "author": "Ivan Kravchenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "strider": {
+    "id": "verstat",
+    "type": "job",
+    "title": "Verstat",
+    "worker": "worker.js",
+    "webapp": "webapp.js",
+    "config": {
+      "controller": "VerstatController"
+    }
+  }
+}
